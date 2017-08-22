@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <title>Patrick Mahoney - Full Stack Developer</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Patrick Mahoney - Full Stack Developer" />
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css" />
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css" />
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar-wrapper">
+        <div class="profile-container">
+          <img class="profile" src="assets/images/profile.jpg" alt="" />
+          <h1 class="name">Patrick Mahoney</h1>
+          <h3 class="tagline">Software Developer</h3>
+        </div>
+        <!--//profile-container-->
+
+        <div class="contact-container container-block">
+          <ul class="list-unstyled contact-list">
+            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: mahoney.patrickj@gmail.com">mahoney.patrickj@gmail.com</a></li>
+            <li class="phone"><i class="fa fa-phone"></i><a href="tel:226 606 7290">226 606 7290</a></li>
+            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/patrick-j-mahoney/" target="_blank">linkedin.com/in/patrick.j.mahoney/</a></li>
+            <li class="github"><i class="fa fa-github"></i><a href="https://github.com/paddymahoney" target="_blank">github.com/paddymahoney</a></li>
+          </ul>
+        </div>
+        <!--//contact-container-->
+        <div class="education-container container-block">
+          <h2 class="container-block-title">Education</h2>
+          <div class="item">
+            <h4 class="degree">Honours Bachelor of Psychology, Co-op Program</h4>
+            <h5 class="meta">University of Waterloo</h5>
+            <div class="time">2006 – 2011</div>
+          </div>
+          <!--//item-->
+        </div>
+        <!--//education-container-->
+
+        <div class="languages-container container-block">
+          <h2 class="container-block-title">Languages</h2>
+          <ul class="list-unstyled interests-list">
+            <li>English <span class="lang-desc">(Native)</span></li>
+            <li>Java <span class="lang-desc">(Professional)</span></li>
+            <li>Javascript <span class="lang-desc">(Professional)</span></li>
+            <li>Typescript <span class="lang-desc">(Professional)</span></li>
+            <li>Scala <span class="lang-desc">(Professional)</span></li>
+            <li>Python <span class="lang-desc">(Professional)</span></li>
+          </ul>
+        </div>
+        <!--//interests-->
+
+        <div class="interests-container container-block">
+          <h2 class="container-block-title">Interests</h2>
+          <ul class="list-unstyled interests-list">
+            <li>VR</li>
+            <li>Math</li>
+            <li>Ethereum</li>
+            <li>Coffee</li>
+          </ul>
+        </div>
+        <!--//interests-->
+      </div>
+      <!--//sidebar-wrapper-->
+
+      <div class="main-wrapper">
+        <section class="section summary-section">
+          <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+          <div class="summary">
+            <p>
+              I'm a software developer and computer science enthusiast with over ten years experience in a variety of roles. I've contributed to languages, compilers, database systems and general business web applications. Talented problem
+              solver and hard worker. I thrive while solving your software and technology problems and building systems that work.
+            </p>
+          </div>
+          <!--//summary-->
+        </section>
+        <!--//section-->
+        <section class="section experiences-section">
+          <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="time">2019-present</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Software Engineer, Remote Monitoring, T&T Power Group</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                I currently work as a lead developer on the T&T Power Group's Remote Monitoring. Remote Monitoring brings powerful control and useful data visualisation to customers choosing T&T Power Group for custom industrial control and
+                combined heat and power generator solutions.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="time">2017-2019</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Huawei Technologies Canada Co., Security Research Lab, Waterloo</div>
+			  <p><strong>Fast and Secure CPU Inference: TensorflowServing Inside Intel SGX</strong> - developed a container serving a ResNET-based landmark detection model from within an Intel SGX enclave.
+			  The line of research was to address the protection of AI models, with SGX providing some protection against memory-dumping attacks.
+			  Performance within enclave was reasonable (within a small constant factor).
+			  Transport from client to server was protected using mutual-TLS, with both REST and gRpc API. 80ms/inference.
+			  The application included included a python Flask frontend allowing the user to upload a landmark to identify and performing an inference. Produced builds with AVX2 optimizations.
+			  The path to Tensorflow-Serving in SGX included development of Tensorflow container that supported running nearly all of upstream Tensorflow.</p>
+			  <p>
+			  Docker container developments included the Docker-ization of an existing Intel SGX-based HSM application, an authserver using this HSM,
+			  a Tensorflow object-detection Jupyter notebook in both cpu and gpu variants, a Mozilla DeepSpeech(ASR, an implementation of Baidu's DeepSpeech) container, a Tensorflow SpeechCommands demo.</p>
+			  <p>Other developments included:
+			    <ul>
+				  <li>Making a Tensorflow model for natural-language processing servable using TensorflowServing</li>
+                  <li>Redis Sentinel auto-discovery feature in C++</li>
+                  <li>Ansible roles-installing intel's SGX driver and aesmd service, with molecule tests.</li>
+                  <li>Test coverage report generation in a large C, C++ project.</li>
+                  <li>Ran programs under Valgrind.</li>
+                  <li>Fix shell injection in a webapp</li>
+                  <li>Performance benchmarks and visualization in C++ and excel</li>
+                  <li>Research and slidedeck proposal for an Ai-guided speaker deidentification feature</li>
+				</ul>
+			  <div>
+            </div>
+		  </div>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Backend Developer</h3>
+                <div class="time">2016 - 2017</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Postmedia Innovation Outpost, Kitchener</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                While at Postmedia, I delivered a Google Adwords REST service that was responsible for pulling, storing and summarizing our client's Adwords data. The implementation was in Typescript, Mongodb, Express, and was written
+                making heavy use of javascript's concurrency features (both Promises and callback-driven concurrency). The implementation satisfied Google's Required Minimum Functionality for Adwords and allowed us to successfully apply for
+                and obtain Standard api access.
+              </p>
+              <p>
+                I also delivered a Google DoubleClick BidManager REST service. The implementation was noteworthy for allowing for the streaming and chunked consumption of large csv report files produced by Google (in the gb range). Nodejs
+                streams and concurrency features formed the backbone.
+              </p>
+              <p>I contributed to the Reporting functionality, writing the backend REST service allowing for report creation and storage. Implemented .xls and .csv report output.</p>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Software Engineer</h3>
+                <div class="time">2013 - 2016</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Auvik Networks, Waterloo</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                While at Auvik, I contributed heavily to the proprietary networking programming language npl. Initially, I wrote a code-generating compiler that took in Auvik's proprietary network programming language (npl) files and
+                generated a database schema structures in the implementation language (scala). This compiler was implemented as a stage in the compilation process, integrating with the build tool sbt, and implemented a file-caching scheme
+                that avoided unnecessary compilation work. Other contributions to the language included compilation passes implementing error handling(Option-lifting) and language primitives for sorting and ordering.
+              </p>
+              <p>
+                I wrote and implemented networking protocols (tftp and telnet). The implementations respected IEFC RFC specifications, and implementated both client and server-side functionality allowing clients to perform telnet and tftp
+                operations within a web console.
+              </p>
+              <p></p>
+              <p>
+                I designed and contributed the initial clustering architecture, consisting of a seed node, backend and frontend node type. The implementation utilized Akka Cluster, and ran on aws at scale. Contributions were also made to
+                the Amazon cloud formation templates necessary to create a cluster. I was primarily responsible for packaging the scala and java code, and produced .deb packages suitable for installation on Ubuntu.
+              </p>
+              <p>To produce a responsive frontend experience, I implemented compression between our frontend server and the client. I also contributed the compilation pipeline that compressed, minified and concatenated our assets.</p>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Technical Account Manager</h3>
+                <div class="time">2012 - 2013</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Desire2Learn, Waterloo</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                At D2L, I worked with a select group of high-profile clients providing a paid-premium service. As TAM, built the client-company relationship as the client's primary contact within the Desire2Learn Customer Support division.
+                I had the distinction of being the first individual in this role. For work on behalf of clients, received a D2L Superstar award nomination for work improving semester start up experience for a large post-secondary school
+                consortium. A large part of the job was to provide interventions on the client's behalf from within the Customer Support division. Interventions ranged from strictly technical to introduction of new process and procedure.
+                This necessitated interacting with Technical Services, Product Development, SaaS Operations divisions to provide prompt resolution to software, hardware issues and service disruptions.
+              </p>
+
+              <p>
+                I advised clients with respect to implementation of new initiatives designed to improve user experience, to mitigate persistent issues, and in planning and implementing software updates and problem hotfixes. Thanks to this
+                involvement, I attained a deep understanding of problems and issues facing customers within the educational-tech sector, with a focus on university and post-secondary client issues.
+              </p>
+              <p>I also provided on-call and after hours support to clients.</p>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+        </section>
+        <!--//section-->
+
+        <section class="section projects-section">
+          <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+          <div class="intro"></div>
+          <!--//intro-->
+          <div class="item">
+            <span class="project-title"><a href="">Deep learning using Generative Adversarial Networks and Tensorflow</a></span> -
+            <span class="project-tagline">
+              I have a long-time research interest in Deep learning and machine learning (initially sparked while studying cognitive psychology and neuroscience, which lead to computational approaches to neuropsych). Recently implemented a
+              Facebook profile picture generator, which took in friend's profile pics and began to produce novel profile pictures, an experiment in unsupervised learning.
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="http://docs.racket-lang.org/frtime/index.html">FrTime and Racket</a></span> -
+            <span class="project-tagline">
+              The FrTime language (an embedding of functional reactive programming (FRP) into a high level programming language) had previously been built atop the older MzScheme programming language. Forked and updated the FrTime language
+              to be built atop the newer Racket programming language. My work on FrTime was merged within Racket 5.3.1-credit provided at http://blog.racket-lang.org/2012/11/racket-v531.html. This work provided experience working with
+              complex software abstractions (macros, higher-order functions, continuations) within a large software ecosystem. Provided additional experience working with existing code, and demonstrated ability to perform software
+              maintenance development. I have also made smaller contributions to other Racket sub-languages.
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="https://plus.google.com/communities/101347256411666267026" target="_blank">Category Theory</a></span> -
+            <span class="project-tagline">I founded this Google+ community, the world's largest online community of category theorists afaict.</span>
+          </div>
+          <!--//item-->
+        </section>
+        <!--//section-->
+
+        <section class="skills-section section">
+          <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+          <div class="skillset">
+            <div class="item">
+              <h3 class="level-title">Git</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="95%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Docker</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="95%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Linux and Unix</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Python</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Javascript &amp; Typescript &amp; Nodejs</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Postgresql</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">JVM</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Scala, Akka, Play</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="80%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Concurrent programming</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="75%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Functional programming</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="75%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Tensorflow</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="40%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+            <div class="item">
+              <h3 class="level-title">Mongodb</h3>
+              <div class="level-bar">
+                <div class="level-bar-inner" data-level="40%"></div>
+              </div>
+              <!--//level-bar-->
+            </div>
+            <!--//item-->
+          </div>
+        </section>
+        <!--//skills-section-->
+      </div>
+      <!--//main-body-->
+    </div>
+
+    <footer class="footer">
+      <div class="text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+        <!-- commented as template license was purchased. -->
+        <!-- <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
+      </div>
+      <!--//container-->
+    </footer>
+    <!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
